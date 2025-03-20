@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+  .post-container {
+    display: flex;
+  }
+  
+  .left-panel {
+    flex: 1;
+    padding-right: 40px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .right-panel {
+    flex: 2;
+  }
+  
+  .subtitle {
+    color: #2f2f2f;
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px 0;
+  }
+  
+  .separator {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 50px;
+    margin: 5px 0;
+  }
+  
+  .meta {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .caption {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.8em;
+    color: #777;
+  }
+</style>
+
+<div class="post-container">
+    <div class="left-panel">
+        <h2 class="post-title">{{ post.title }}</h2>
+        <p class="subtitle">{{ post.subtitle }}</p>
+        <hr class="separator">
+        <p class="meta">{{ post.date }} by {{ post.author }}<br>
+            {{ post.category }}
+        </p>
+    </div>
+    <div class="right-panel">
+        <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
+        <p class="caption"><em>{{ post.caption }}</em></p>
+        <div class="post-content">
+            {{ content | safe }}
+        </div>
+    </div>
+</div>
+{% endblock %}
