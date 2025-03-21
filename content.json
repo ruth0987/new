@@ -6,7 +6,7 @@
         "author": "Joseph Weissman",
         "date": "Sunday, November 10, 2024",
         "category": "Uncategorized",
-        "image": "/static/images/landing.jpg",
+        "image": "/static/images/photo-1741732311874-812a7dc4ccde.avif",
         "caption": "Conductor and contralto Nathalie Stutzmann. Photo: Daniele Ratti",
         "content": "The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone...The Kyrie pleads for intercession. 'Lord have mercy / Christ have mercy', the celebrant and chorus intone..."
     },
@@ -17,7 +17,7 @@
         "author": "Emily Thompson",
         "date": "Friday, December 15, 2024",
         "category": "Music Review",
-        "image": "/static/images/pondichery.webp",
+        "image": "/static/images/photo-1741836977321-677550bf4db6.avif",
         "caption": "Composer Arvo Pärt. Photo: Marco Borggreve",
         "content": "The gentle yet profound resonance of Arvo Pärt's 'Spiegel im Spiegel' captivated audiences at Carnegie Hall..."
     },
@@ -28,7 +28,7 @@
         "author": "Ruthwik Reddy",
         "date": "Tuesday, March 19, 2025",
         "category": "Nature",
-        "image": "/static/images/new_street.webp",
+        "image": "/static/images/photo-1741850820683-b25798ff3164.avif",
         "caption": "A breathtaking view of the ocean's depths.",
         "content": "hello\nhey\n*hello*\n\nhello"
     },
@@ -39,7 +39,7 @@
         "author": "Marine Explorer",
         "date": "Wednesday, March 20, 2025",
         "category": "Nature",
-        "image": "/static/images/sahara.webp",
+        "image": "/static/images/photo-1741851373786-1986f693aaf2.avif",
         "caption": "Deep-sea wonders captured on camera.",
         "content": "The **ocean** hides incredible secrets:\n\n1. **Mysterious Creatures** like the *Giant Squid*.\n2. Ancient shipwrecks lost in the abyss.\n\n![Ocean Depths](/static/images/afrika.webp)\n\n### Exploring the Depths\nDive deep into the Mariana Trench for a surreal experience.\n\n**Watch this documentary:**\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pN7teddPymo\" allowfullscreen></iframe>\n\n*Stay curious and keep exploring!*"
     },
@@ -48,7 +48,17 @@
         "title": "Welcome to Fractal Ontology",
         "date": "March 20, 2025",
         "content": "Welcome to Fractal Ontology, a space where we explore the depths of knowledge and thought. This blog is dedicated to examining ideas through multiple lenses, understanding their interconnections, and discovering new perspectives.\n\nHere, we'll delve into philosophy, science, art, and technology - not as separate domains, but as interconnected facets of human understanding. Join us on this journey of intellectual exploration.",
-        "image": "welcome.jpg",
+        "image": "/static/images/photo-1742124513359-8cd0a9305d47.avif",
         "slug": "welcome-to-fractal-ontology"
+    },
+    {
+        "id": 6,
+        "title": "Exploring Ocean Mysteries",
+        "subtitle": "A Journey Below the Surface",
+        "author": "Marine Explorer",
+        "date": "Wednesday, March 20, 2025",
+        "category": "Nature",
+        "image": "/static/images/sahara.webp",
+        "content": "Dive deep into the mysteries of our oceans as we explore the fascinating underwater world..."
     }
 ]
