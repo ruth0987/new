@@ -19,12 +19,6 @@
     flex: 2;
   }
   
-  .subtitle {
-    color: #2f2f2f;
-    font-family: 'Work Sans', sans-serif;
-    margin: 10px 0;
-  }
-  
   .separator {
     border: 0;
     height: 1px;
@@ -44,6 +38,11 @@
     font-size: 0.8em;
     color: #777;
   }
+  
+  .post-content {
+    font-family: 'Work Sans', sans-serif;
+    color: #2f2f2f;
+  }
 </style>
 
 <div class="post-container">
@@ -58,8 +57,12 @@
     <div class="right-panel">
         <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
         <p class="caption"><em>{{ post.caption }}</em></p>
-        <div class="post-content">
-            {{ content | safe }}
+        <hr class="separator">
+        <div class="subtitle" style="color: #2f2f2f; font-family: 'Work Sans', sans-serif; font-weight: 600; margin: 10px 0; text-align: center; font-size: 1.2rem">
+          {{ post.subtitle }}
+        </div>
+        <div class="post-content" style="line-height: 2; font-size: 1.1rem;">
+          {{ content | safe }}
         </div>
     </div>
 </div>
